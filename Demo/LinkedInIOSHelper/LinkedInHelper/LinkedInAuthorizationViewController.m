@@ -52,7 +52,7 @@ NSString * const linkedinIosHelperDomain = @"com.linkedinioshelper";
                                                                     target:self
                                                                     action:@selector(btnCancelTapped:)];
     
-    self.navigationItem.leftBarButtonItem = cancelButton;
+    self.navigationItem.rightBarButtonItem = cancelButton;
     
     self.webView = [[UIWebView alloc] init];
     self.webView.delegate = self;
