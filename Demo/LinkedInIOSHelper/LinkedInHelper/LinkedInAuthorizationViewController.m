@@ -52,7 +52,7 @@ NSString * const linkedinIosHelperDomain = @"com.linkedinioshelper";
                                                                     target:self
                                                                     action:@selector(btnCancelTapped:)];
     
-    self.navigationItem.leftBarButtonItem = cancelButton;
+    self.navigationItem.rightBarButtonItem = cancelButton;
     
     self.webView = [[UIWebView alloc] init];
     self.webView.delegate = self;
@@ -62,6 +62,11 @@ NSString * const linkedinIosHelperDomain = @"com.linkedinioshelper";
     if (self.showActivityIndicator) {
         [self showIndicatorWithStyle:UIActivityIndicatorViewStyleGray];
     }
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.translucent = FALSE;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
