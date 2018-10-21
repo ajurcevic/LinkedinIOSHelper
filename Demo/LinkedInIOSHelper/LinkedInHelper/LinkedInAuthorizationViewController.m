@@ -64,6 +64,11 @@ NSString * const linkedinIosHelperDomain = @"com.linkedinioshelper";
     }
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.translucent = FALSE;
+}
+
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
