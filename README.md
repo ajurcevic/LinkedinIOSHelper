@@ -1,20 +1,8 @@
 # LinkedinIOSHelper
 
-[![Version](https://img.shields.io/cocoapods/v/LinkedinIOSHelper.svg?style=flat)](http://cocoapods.org/pods/LinkedinIOSHelper)
-[![License](https://img.shields.io/cocoapods/l/LinkedinIOSHelper.svg?style=flat)](http://cocoapods.org/pods/LinkedinIOSHelper)
-[![Platform](https://img.shields.io/cocoapods/p/LinkedinIOSHelper.svg?style=flat)](http://cocoapods.org/pods/LinkedinIOSHelper)
-<a href="https://twitter.com/ahmtgny">
-<img src="https://img.shields.io/badge/contact-@ahmtgny-blue.svg?style=flat" alt="Twitter: @ahmtgny" />
-</a>
-<a href="https://github.com/ahmetkgunay/LinkedinIOSHelper/tree/master/LinkedInIOSHelper">
-<img src="https://img.shields.io/gemnasium/mathiasbynens/he.svg?style=flat">
-</a>
-<a href="https://github.com/ahmetkgunay/LinkedinIOSHelper/tree/master/LinkedInIOSHelper">
-<img src="https://img.shields.io/cocoapods/at/LinkedinIOSHelper.svg?style=flat">
-</a>
-<a href="https://github.com/ahmetkgunay/LinkedinIOSHelper/tree/master/LinkedInIOSHelper">
-<img src="https://img.shields.io/cocoapods/dt/LinkedinIOSHelper.svg?style=flat">
-</a>
+[![Version](https://img.shields.io/badge/pod-1.1.0-blue.svg?style=flat)](#)
+[![License](https://img.shields.io/cocoapods/l/LinkedinIOSHelper.svg?style=flat)](#)
+[![Platform](https://img.shields.io/cocoapods/p/LinkedinIOSHelper.svg?style=flat)](#)
 
 
 ## Usage
@@ -140,7 +128,7 @@ LinkedinIOSHelper is available through [CocoaPods](http://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LinkedinIOSHelper', '~> 1.0.9'
+  pod 'LinkedinIOSHelper',:git => 'https://github.com/ajurcevic/LinkedinIOSHelper.git'
 ```
 
 ## Author
